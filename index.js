@@ -67,7 +67,7 @@ const server = createServer(app);
 // Initialize Socket.IO with enhanced configuration
 const io = new Server(server, {
   cors: {
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin: process.env.CLIENT_URL || "https://synaptron-eh9x5c0qs-yashrajs-projects-49f9895f.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true
   },
@@ -98,7 +98,7 @@ const io = new Server(server, {
     // CORS middleware
     app.use(
       cors({
-        origin: process.env.CLIENT_URL || "http://localhost:5173",
+        origin: process.env.CLIENT_URL || "https://synaptron-eh9x5c0qs-yashrajs-projects-49f9895f.vercel.app",
         credentials: true,
         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
         allowedHeaders: ["Content-Type", "Authorization"]
