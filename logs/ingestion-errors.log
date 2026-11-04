@@ -1,0 +1,313 @@
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756082873653_3d9ma6g5i',
+  status: 'error',
+  timestamp: '2025-08-25T00:48:08.345Z',
+  domain: 'Blockchain Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: 'DomainIngestion validation failed: sessionId: Path `sessionId` is required.',
+  duration: 14675,
+  level: 'error',
+  message: 'Ingestion error'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756083361684_rwobdlo4j',
+  status: 'error',
+  timestamp: '2025-08-25T00:56:25.253Z',
+  domain: 'JAVA',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: 'DomainIngestion validation failed: sessionId: Path `sessionId` is required.',
+  duration: 23539,
+  level: 'error',
+  message: 'Ingestion error'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756084092075_m3c2aamuv',
+  status: 'error',
+  timestamp: '2025-08-25T01:09:16.481Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: `DomainIngestion validation failed: analysisResults.subdomains.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Fundamentals',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'variables',\\n" +\n` +
+    `  "      'data types',\\n" +\n` +
+    `  "      'operators',\\n" +\n` +
+    `  "      'control structures',\\n" +\n` +
+    `  "      'functions'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Object-Oriented Programming (OOP)',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'classes',\\n" +\n` +
+    `  "      'objects',\\n" +\n` +
+    `  "      'inheritance',\\n" +\n` +
+    `  "      'polymorphism',\\n" +\n` +
+    `  "      'encapsulation'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Collections Framework',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'lists', 'sets', 'maps', 'queues', 'stacks' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Stream API',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'stream creation',\\n" +\n` +
+    `  "      'intermediate operations',\\n" +\n` +
+    `  "      'terminal operations'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Multithreading',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'threads', 'synchronization', 'concurrency', 'deadlocks' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Web Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'servlets', 'JSP', 'Spring Framework', 'Hibernate' ]\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.subdomains.0" because of "CastError", analysisResults.primaryConcepts.0: Cast to [string] failed for value "[\\n' +\n` +
+    `  "  { name: 'Variables and Data Types' },\\n" +\n` +
+    `  "  { name: 'Control Structures' },\\n" +\n` +
+    `  "  { name: 'Functions and Methods' },\\n" +\n` +
+    `  "  { name: 'Object-Oriented Programming (OOP) Concepts' },\\n" +\n` +
+    `  "  { name: 'Exception Handling' }\\n" +\n` +
+    `  ']" (type string) at path "analysisResults.primaryConcepts.0" because of "CastError", analysisResults.prerequisites.0: Cast to [string] failed for value "[\\n' +\n` +
+    `  "  { name: 'Basic programming concepts' },\\n" +\n` +
+    `  "  { name: 'Understanding of data structures and algorithms' },\\n" +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Familiarity with object-oriented programming (OOP) concepts'\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.prerequisites.0" because of "CastError"`,
+  duration: 64392,
+  level: 'error',
+  message: 'Ingestion error'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756084794609_f6s8qar98',
+  status: 'error',
+  timestamp: '2025-08-25T01:20:53.393Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: `DomainIngestion validation failed: analysisResults.subdomains.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Fundamentals',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'variables',\\n" +\n` +
+    `  "      'data types',\\n" +\n` +
+    `  "      'operators',\\n" +\n` +
+    `  "      'control structures',\\n" +\n` +
+    `  "      'functions'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Object-Oriented Programming (OOP) Concepts',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'classes',\\n" +\n` +
+    `  "      'objects',\\n" +\n` +
+    `  "      'inheritance',\\n" +\n` +
+    `  "      'polymorphism',\\n" +\n` +
+    `  "      'encapsulation'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Collections Framework',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'lists', 'sets', 'maps', 'queues', 'stacks' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Stream API',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'lambda expressions', 'method references', 'stream operations' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Multithreading',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'threads', 'synchronization', 'locks', 'concurrency' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Web Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'servlets', 'JSP', 'Spring Framework', 'Hibernate' ]\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.subdomains.0" because of "CastError", analysisResults.prerequisites.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Basic programming concepts',\\n" +\n` +
+    `  "    description: 'Understanding of variables, data types, control structures, functions, and object-oriented programming concepts'\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Data structures and algorithms',\\n" +\n` +
+    `  "    description: 'Familiarity with common data structures such as arrays, linked lists, stacks, and queues, as well as basic algorithms like sorting and searching'\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.prerequisites.0" because of "CastError"`,
+  duration: 58747,
+  level: 'error',
+  message: 'Ingestion error'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756087653815_4ao189814',
+  status: 'error',
+  timestamp: '2025-08-25T02:08:51.476Z',
+  domain: 'Web Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: `DomainIngestion validation failed: analysisResults.subdomains.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Front-end Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'HTML', 'CSS', 'JavaScript', 'React', 'Angular', 'Vue.js' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Back-end Development',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'Server-side programming languages (e.g., Python, Ruby, PHP)',\\n" +\n` +
+    `  "      'Database management systems (e.g., MySQL, MongoDB)',\\n" +\n` +
+    `  "      'API design'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Full-stack Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'Combining front-end and back-end development skills' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Web Security',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'Secure coding practices',\\n" +\n` +
+    `  "      'Vulnerability assessment',\\n" +\n` +
+    `  "      'Penetration testing'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Web Performance Optimization',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'Page speed optimization',\\n" +\n` +
+    `  "      'Caching',\\n" +\n` +
+    `  "      'Content delivery networks (CDNs)'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.subdomains.0" because of "CastError"`,
+  duration: 77644,
+  level: 'error',
+  message: 'Ingestion error'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756301441192_5mrvyiwmp',
+  status: 'error',
+  timestamp: '2025-08-27T13:31:43.385Z',
+  domain: 'Mobile Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: `DomainIngestion validation failed: analysisResults.subdomains.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'iOS Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'Swift', 'Objective-C', 'Xcode', 'iOS SDK' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Android Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'Java', 'Kotlin', 'Android Studio', 'Android SDK' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Cross-Platform Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'React Native', 'Flutter', 'Xamarin' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Mobile Web Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'HTML5', 'CSS3', 'JavaScript', 'Responsive Design' ]\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.subdomains.0" because of "CastError"`,
+  duration: 62174,
+  level: 'error',
+  message: 'Ingestion error'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756302136298_daxshx2dm',
+  status: 'error',
+  timestamp: '2025-08-27T13:43:25.992Z',
+  domain: 'Machine Learning',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: `DomainIngestion validation failed: analysisResults.subdomains.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Supervised Learning',\\n" +\n` +
+    `  "    areas_of_expertise: [ 'Regression', 'Classification', 'Support Vector Machines' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Unsupervised Learning',\\n" +\n` +
+    `  "    areas_of_expertise: [ 'Clustering', 'Dimensionality Reduction', 'Density Estimation' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Reinforcement Learning',\\n" +\n` +
+    "  '    areas_of_expertise: [\\n' +\n" +
+    `  "      'Markov Decision Processes',\\n" +\n` +
+    `  "      'Q-Learning',\\n" +\n` +
+    `  "      'Policy Gradient Methods'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Deep Learning',\\n" +\n` +
+    "  '    areas_of_expertise: [\\n' +\n" +
+    `  "      'Neural Networks',\\n" +\n` +
+    `  "      'Convolutional Neural Networks',\\n" +\n` +
+    `  "      'Recurrent Neural Networks'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.subdomains.0" because of "CastError", analysisResults.primaryConcepts.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Overfitting',\\n" +\n` +
+    `  "    description: 'When a model is too complex and performs well on training data but poorly on new data'\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Underfitting',\\n" +\n` +
+    `  "    description: 'When a model is too simple and fails to capture the underlying patterns in the data'\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Bias-Variance Tradeoff',\\n" +\n` +
+    `  "    description: 'The balance between model simplicity and complexity'\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Regularization',\\n" +\n` +
+    `  "    description: 'Techniques to prevent overfitting, such as L1 and L2 regularization'\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.primaryConcepts.0" because of "CastError", analysisResults.prerequisites.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Linear Algebra',\\n" +\n` +
+    `  "    description: 'Understanding of vectors, matrices, and operations'\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Calculus',\\n" +\n` +
+    `  "    description: 'Understanding of derivatives and optimization techniques'\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Probability and Statistics',\\n" +\n` +
+    '  `    description: "Understanding of probability distributions, Bayes\' theorem, and statistical inference"\\n` +\n' +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Programming Skills',\\n" +\n` +
+    `  "    description: 'Proficiency in a programming language, such as Python or R'\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.prerequisites.0" because of "CastError"`,
+  duration: 69590,
+  level: 'error',
+  message: 'Ingestion error'
+}

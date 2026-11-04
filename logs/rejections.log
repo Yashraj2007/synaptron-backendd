@@ -1,0 +1,57 @@
+{
+  error: TypeError: logger.error is not a function
+      at performIngestionProcess (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:214:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5),
+  level: 'error',
+  message: 'unhandledRejection: logger.error is not a function\n' +
+    'TypeError: logger.error is not a function\n' +
+    '    at performIngestionProcess (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:214:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  stack: 'TypeError: logger.error is not a function\n' +
+    '    at performIngestionProcess (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:214:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  rejection: true,
+  date: 'Thu Aug 21 2025 18:29:46 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16760,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 90386432,
+      heapTotal: 48570368,
+      heapUsed: 45229712,
+      external: 21982853,
+      arrayBuffers: 18406126
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 4810.078 },
+  trace: [
+    {
+      column: 12,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: 'performIngestionProcess',
+      line: 214,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 105,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 16760,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-21T12:59:46.406Z'
+}

@@ -1,0 +1,3833 @@
+{
+  error: TypeError: WebCrawler is not a constructor
+      at new IngestionService (C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:8:20)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:6:26)
+      at Module._compile (node:internal/modules/cjs/loader:1565:14)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16),
+  level: 'error',
+  message: 'uncaughtException: WebCrawler is not a constructor\n' +
+    'TypeError: WebCrawler is not a constructor\n' +
+    '    at new IngestionService (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:8:20)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1565:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)',
+  stack: 'TypeError: WebCrawler is not a constructor\n' +
+    '    at new IngestionService (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:8:20)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1565:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)',
+  exception: true,
+  date: 'Thu Aug 21 2025 19:05:28 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13868,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 91893760,
+      heapTotal: 63324160,
+      heapUsed: 37148672,
+      external: 21715272,
+      arrayBuffers: 18311520
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6952.468 },
+  trace: [
+    {
+      column: 20,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js',
+      function: 'new IngestionService',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1565,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 13868,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-21T13:35:28.795Z'
+}
+{
+  error: TypeError: WebCrawler is not a constructor
+      at new IngestionService (C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:8:20)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:6:26)
+      at Module._compile (node:internal/modules/cjs/loader:1565:14)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16),
+  level: 'error',
+  message: 'uncaughtException: WebCrawler is not a constructor\n' +
+    'TypeError: WebCrawler is not a constructor\n' +
+    '    at new IngestionService (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:8:20)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1565:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)',
+  stack: 'TypeError: WebCrawler is not a constructor\n' +
+    '    at new IngestionService (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:8:20)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1565:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)',
+  exception: true,
+  date: 'Thu Aug 21 2025 19:06:46 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10644,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92708864,
+      heapTotal: 64188416,
+      heapUsed: 37768032,
+      external: 21721974,
+      arrayBuffers: 18311520
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 7030.593 },
+  trace: [
+    {
+      column: 20,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js',
+      function: 'new IngestionService',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1565,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 10644,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-21T13:36:46.925Z'
+}
+{
+  error: TypeError: WebCrawler is not a constructor
+      at new IngestionService (C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:8:20)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:6:26)
+      at Module._compile (node:internal/modules/cjs/loader:1565:14)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16),
+  level: 'error',
+  message: 'uncaughtException: WebCrawler is not a constructor\n' +
+    'TypeError: WebCrawler is not a constructor\n' +
+    '    at new IngestionService (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:8:20)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1565:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)',
+  stack: 'TypeError: WebCrawler is not a constructor\n' +
+    '    at new IngestionService (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:8:20)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1565:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)',
+  exception: true,
+  date: 'Thu Aug 21 2025 19:10:19 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15460,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92958720,
+      heapTotal: 64188416,
+      heapUsed: 38072200,
+      external: 21721974,
+      arrayBuffers: 18311520
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 7243.312 },
+  trace: [
+    {
+      column: 20,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js',
+      function: 'new IngestionService',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1565,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 15460,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-21T13:40:19.647Z'
+}
+{
+  error: TypeError: WebCrawler is not a constructor
+      at new IngestionService (C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:8:20)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:6:26)
+      at Module._compile (node:internal/modules/cjs/loader:1565:14)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16),
+  level: 'error',
+  message: 'uncaughtException: WebCrawler is not a constructor\n' +
+    'TypeError: WebCrawler is not a constructor\n' +
+    '    at new IngestionService (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:8:20)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1565:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)',
+  stack: 'TypeError: WebCrawler is not a constructor\n' +
+    '    at new IngestionService (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:8:20)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1565:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)',
+  exception: true,
+  date: 'Thu Aug 21 2025 19:18:06 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 12328,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92700672,
+      heapTotal: 64188416,
+      heapUsed: 38142448,
+      external: 21721974,
+      arrayBuffers: 18311520
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 7710.281 },
+  trace: [
+    {
+      column: 20,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js',
+      function: 'new IngestionService',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1565,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 12328,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-21T13:48:06.609Z'
+}
+{
+  error: TypeError: WebCrawler is not a constructor
+      at new IngestionService (C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:8:20)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:6:26)
+      at Module._compile (node:internal/modules/cjs/loader:1565:14)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16),
+  level: 'error',
+  message: 'uncaughtException: WebCrawler is not a constructor\n' +
+    'TypeError: WebCrawler is not a constructor\n' +
+    '    at new IngestionService (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:8:20)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1565:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)',
+  stack: 'TypeError: WebCrawler is not a constructor\n' +
+    '    at new IngestionService (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:8:20)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1565:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)',
+  exception: true,
+  date: 'Thu Aug 21 2025 19:21:51 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2828,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92069888,
+      heapTotal: 64188416,
+      heapUsed: 37919480,
+      external: 21721974,
+      arrayBuffers: 18311520
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 7935.093 },
+  trace: [
+    {
+      column: 20,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js',
+      function: 'new IngestionService',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1565,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 2828,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-21T13:51:51.434Z'
+}
+{
+  error: TypeError: WebCrawler is not a constructor
+      at new IngestionService (C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:8:20)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:6:26)
+      at Module._compile (node:internal/modules/cjs/loader:1565:14)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16),
+  level: 'error',
+  message: 'uncaughtException: WebCrawler is not a constructor\n' +
+    'TypeError: WebCrawler is not a constructor\n' +
+    '    at new IngestionService (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:8:20)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1565:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)',
+  stack: 'TypeError: WebCrawler is not a constructor\n' +
+    '    at new IngestionService (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:8:20)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:6:26)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1565:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)',
+  exception: true,
+  date: 'Thu Aug 21 2025 19:22:00 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13428,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92463104,
+      heapTotal: 63918080,
+      heapUsed: 37606816,
+      external: 21721974,
+      arrayBuffers: 18311520
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 7943.921 },
+  trace: [
+    {
+      column: 20,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js',
+      function: 'new IngestionService',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1565,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 13428,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-21T13:52:00.255Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:500
+  
+  
+  
+  SyntaxError: Unexpected end of input
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:2:26),
+  level: 'error',
+  message: 'uncaughtException: Unexpected end of input\n' +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:500\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'SyntaxError: Unexpected end of input\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:500\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'SyntaxError: Unexpected end of input\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  exception: true,
+  date: 'Mon Aug 25 2025 06:16:40 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 1092,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92614656,
+      heapTotal: 63664128,
+      heapUsed: 34799720,
+      external: 20816361,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2425.843 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 1092,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-25T00:46:40.180Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:294
+  
+  
+  
+  SyntaxError: Unexpected end of input
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:2:26),
+  level: 'error',
+  message: 'uncaughtException: Unexpected end of input\n' +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:294\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'SyntaxError: Unexpected end of input\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:294\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'SyntaxError: Unexpected end of input\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  exception: true,
+  date: 'Mon Aug 25 2025 09:26:05 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 21820,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 98410496,
+      heapTotal: 63139840,
+      heapUsed: 34810424,
+      external: 20816361,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 13791.312 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 21820,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-25T03:56:05.650Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\services\crawler.js:29
+  'html': {
+        ^
+  
+  SyntaxError: Unexpected token ':'
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:2:20),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ':'\n" +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\crawler.js:29\n' +
+    "'html': {\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ':'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:2:20)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\crawler.js:29\n' +
+    "'html': {\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ':'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:2:20)',
+  exception: true,
+  date: 'Mon Aug 25 2025 09:43:05 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 21944,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 93270016,
+      heapTotal: 63401984,
+      heapUsed: 35166936,
+      external: 20816361,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 14811.062 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 21944,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-25T04:13:05.394Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\services\crawler.js:94
+    async cleanup() {
+          ^^^^^^^
+  
+  SyntaxError: Unexpected identifier 'cleanup'
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:2:20),
+  level: 'error',
+  message: "uncaughtException: Unexpected identifier 'cleanup'\n" +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\crawler.js:94\n' +
+    '  async cleanup() {\n' +
+    '        ^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'cleanup'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:2:20)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\crawler.js:94\n' +
+    '  async cleanup() {\n' +
+    '        ^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'cleanup'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:2:20)',
+  exception: true,
+  date: 'Thu Aug 28 2025 12:49:19 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15396,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92413952,
+      heapTotal: 63401984,
+      heapUsed: 35132728,
+      external: 20816361,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 7439.203 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 15396,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T07:19:19.538Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:479
+  const WebCrawler = require('./crawler');
+        ^^^^^^^^^^
+  
+  SyntaxError: Unexpected identifier 'WebCrawler'
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:2:26),
+  level: 'error',
+  message: "uncaughtException: Unexpected identifier 'WebCrawler'\n" +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:479\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^^^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'WebCrawler'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:479\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^^^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'WebCrawler'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:03:48 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 628,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92770304,
+      heapTotal: 63586304,
+      heapUsed: 35092208,
+      external: 20816361,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8308.671 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 628,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T07:33:49.017Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:479
+  const WebCrawler = require('./crawler');
+        ^^^^^^^^^^
+  
+  SyntaxError: Unexpected identifier 'WebCrawler'
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:2:26),
+  level: 'error',
+  message: "uncaughtException: Unexpected identifier 'WebCrawler'\n" +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:479\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^^^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'WebCrawler'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:479\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^^^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'WebCrawler'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:05:40 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13760,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92516352,
+      heapTotal: 63885312,
+      heapUsed: 35134016,
+      external: 20816361,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8419.937 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 13760,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T07:35:40.277Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:479
+  const WebCrawler = require('./crawler');
+        ^^^^^^^^^^
+  
+  SyntaxError: Unexpected identifier 'WebCrawler'
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:2:26),
+  level: 'error',
+  message: "uncaughtException: Unexpected identifier 'WebCrawler'\n" +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:479\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^^^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'WebCrawler'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:479\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^^^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'WebCrawler'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:05:58 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 3972,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 93106176,
+      heapTotal: 63664128,
+      heapUsed: 35287288,
+      external: 20816361,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8437.921 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 3972,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T07:35:58.263Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:479
+  const WebCrawler = require('./crawler');
+        ^^^^^^^^^^
+  
+  SyntaxError: Unexpected identifier 'WebCrawler'
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:2:26),
+  level: 'error',
+  message: "uncaughtException: Unexpected identifier 'WebCrawler'\n" +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:479\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^^^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'WebCrawler'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:479\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^^^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'WebCrawler'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:06:03 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15424,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92725248,
+      heapTotal: 63401984,
+      heapUsed: 35100536,
+      external: 20816361,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8443.484 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 15424,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T07:36:03.821Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:2109
+  const WebCrawler = require('./crawler');
+        ^
+  
+  SyntaxError: Identifier 'WebCrawler' has already been declared
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:2:26),
+  level: 'error',
+  message: "uncaughtException: Identifier 'WebCrawler' has already been declared\n" +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:2109\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'WebCrawler' has already been declared\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:2109\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'WebCrawler' has already been declared\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:15:30 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 14432,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92729344,
+      heapTotal: 63918080,
+      heapUsed: 35282208,
+      external: 20816361,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 9009.703 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 14432,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T07:45:30.041Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:2109
+  const WebCrawler = require('./crawler');
+        ^
+  
+  SyntaxError: Identifier 'WebCrawler' has already been declared
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:2:26),
+  level: 'error',
+  message: "uncaughtException: Identifier 'WebCrawler' has already been declared\n" +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:2109\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'WebCrawler' has already been declared\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:2109\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'WebCrawler' has already been declared\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:15:48 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13164,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92954624,
+      heapTotal: 63918080,
+      heapUsed: 35050208,
+      external: 20816361,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 9028.343 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 13164,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T07:45:48.677Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\services\ingestion-service.js:2109
+  const WebCrawler = require('./crawler');
+        ^
+  
+  SyntaxError: Identifier 'WebCrawler' has already been declared
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\ingestController.js:2:26),
+  level: 'error',
+  message: "uncaughtException: Identifier 'WebCrawler' has already been declared\n" +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:2109\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'WebCrawler' has already been declared\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\services\\ingestion-service.js:2109\n' +
+    "const WebCrawler = require('./crawler');\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'WebCrawler' has already been declared\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js:2:26)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:15:51 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9944,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92901376,
+      heapTotal: 63393792,
+      heapUsed: 35312920,
+      external: 20816361,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 9031.312 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\ingestController.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 9944,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T07:45:51.639Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\utils\openaiClient.js:44
+      cleanedText = cleanedText.replace(/```
+                                        ^
+  
+  SyntaxError: Invalid regular expression: missing /
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\chatController.js:6:70),
+  level: 'error',
+  message: 'uncaughtException: Invalid regular expression: missing /\n' +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\utils\\openaiClient.js:44\n' +
+    '    cleanedText = cleanedText.replace(/```\n' +
+    '                                      ^\n' +
+    '\n' +
+    'SyntaxError: Invalid regular expression: missing /\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js:6:70)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\utils\\openaiClient.js:44\n' +
+    '    cleanedText = cleanedText.replace(/```\n' +
+    '                                      ^\n' +
+    '\n' +
+    'SyntaxError: Invalid regular expression: missing /\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js:6:70)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:41:43 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9812,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 89145344,
+      heapTotal: 61571072,
+      heapUsed: 41824056,
+      external: 20816362,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10583.296 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 70,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 9812,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T08:11:43.642Z'
+}
+{
+  error: Error [ERR_REQUIRE_ASYNC_MODULE]: require() cannot be used on an ESM graph with top-level await. Use import() instead. To see where the top-level await comes from, use --experimental-print-required-tla.
+      at ModuleJobSync.runSync (node:internal/modules/esm/module_job:392:13)
+      at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)
+      at loadESMFromCJS (node:internal/modules/cjs/loader:1414:24)
+      at Module._compile (node:internal/modules/cjs/loader:1547:5)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12) {
+    code: 'ERR_REQUIRE_ASYNC_MODULE'
+  },
+  level: 'error',
+  message: 'uncaughtException: require() cannot be used on an ESM graph with top-level await. Use import() instead. To see where the top-level await comes from, use --experimental-print-required-tla.\n' +
+    'Error [ERR_REQUIRE_ASYNC_MODULE]: require() cannot be used on an ESM graph with top-level await. Use import() instead. To see where the top-level await comes from, use --experimental-print-required-tla.\n' +
+    '    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:392:13)\n' +
+    '    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)\n' +
+    '    at loadESMFromCJS (node:internal/modules/cjs/loader:1414:24)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1547:5)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)',
+  stack: 'Error [ERR_REQUIRE_ASYNC_MODULE]: require() cannot be used on an ESM graph with top-level await. Use import() instead. To see where the top-level await comes from, use --experimental-print-required-tla.\n' +
+    '    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:392:13)\n' +
+    '    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)\n' +
+    '    at loadESMFromCJS (node:internal/modules/cjs/loader:1414:24)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1547:5)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:45:36 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7664,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 91635712,
+      heapTotal: 62349312,
+      heapUsed: 43936872,
+      external: 20894238,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10816.609 },
+  trace: [
+    {
+      column: 13,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJobSync.runSync',
+      line: 392,
+      method: 'runSync',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/modules/esm/loader',
+      function: 'ModuleLoader.importSyncForRequire',
+      line: 329,
+      method: 'importSyncForRequire',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadESMFromCJS',
+      line: 1414,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1547,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 7664,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T08:15:36.944Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\utils\openaiClient.js:44
+      cleanedText = cleanedText.replace(/```
+                                        ^
+  
+  SyntaxError: Invalid regular expression: missing /
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\chatController.js:6:70),
+  level: 'error',
+  message: 'uncaughtException: Invalid regular expression: missing /\n' +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\utils\\openaiClient.js:44\n' +
+    '    cleanedText = cleanedText.replace(/```\n' +
+    '                                      ^\n' +
+    '\n' +
+    'SyntaxError: Invalid regular expression: missing /\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js:6:70)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\utils\\openaiClient.js:44\n' +
+    '    cleanedText = cleanedText.replace(/```\n' +
+    '                                      ^\n' +
+    '\n' +
+    'SyntaxError: Invalid regular expression: missing /\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js:6:70)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:45:56 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 5268,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 89083904,
+      heapTotal: 61571072,
+      heapUsed: 41633008,
+      external: 20816362,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10835.859 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 70,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 5268,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T08:15:56.198Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\utils\openaiClient.js:44
+      cleanedText = cleanedText.replace(/```/
+                                        ^^^^^
+  
+  SyntaxError: missing ) after argument list
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\chatController.js:6:70),
+  level: 'error',
+  message: 'uncaughtException: missing ) after argument list\n' +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\utils\\openaiClient.js:44\n' +
+    '    cleanedText = cleanedText.replace(/```/\n' +
+    '                                      ^^^^^\n' +
+    '\n' +
+    'SyntaxError: missing ) after argument list\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js:6:70)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\utils\\openaiClient.js:44\n' +
+    '    cleanedText = cleanedText.replace(/```/\n' +
+    '                                      ^^^^^\n' +
+    '\n' +
+    'SyntaxError: missing ) after argument list\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js:6:70)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:46:04 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 17616,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 88907776,
+      heapTotal: 61571072,
+      heapUsed: 41608712,
+      external: 20816362,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10844.328 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 70,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 17616,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T08:16:04.668Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\utils\openaiClient.js:44
+      cleanedText = cleanedText.replace(/```)/gi, '');
+                                        ^^^^^^^^
+  
+  SyntaxError: Invalid regular expression: /```)/gi: Unmatched ')'
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\chatController.js:6:70),
+  level: 'error',
+  message: "uncaughtException: Invalid regular expression: /```)/gi: Unmatched ')'\n" +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\utils\\openaiClient.js:44\n' +
+    "    cleanedText = cleanedText.replace(/```)/gi, '');\n" +
+    '                                      ^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Invalid regular expression: /```)/gi: Unmatched ')'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js:6:70)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\utils\\openaiClient.js:44\n' +
+    "    cleanedText = cleanedText.replace(/```)/gi, '');\n" +
+    '                                      ^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Invalid regular expression: /```)/gi: Unmatched ')'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js:6:70)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:46:09 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9336,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 89321472,
+      heapTotal: 61571072,
+      heapUsed: 41913096,
+      external: 20816362,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10849.125 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 70,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 9336,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T08:16:09.453Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\utils\openaiClient.js:44
+      cleanedText = cleanedText.replace(/```)/gi, '');
+                                        ^^^^^^^^
+  
+  SyntaxError: Invalid regular expression: /```)/gi: Unmatched ')'
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\chatController.js:6:70),
+  level: 'error',
+  message: "uncaughtException: Invalid regular expression: /```)/gi: Unmatched ')'\n" +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\utils\\openaiClient.js:44\n' +
+    "    cleanedText = cleanedText.replace(/```)/gi, '');\n" +
+    '                                      ^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Invalid regular expression: /```)/gi: Unmatched ')'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js:6:70)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\utils\\openaiClient.js:44\n' +
+    "    cleanedText = cleanedText.replace(/```)/gi, '');\n" +
+    '                                      ^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Invalid regular expression: /```)/gi: Unmatched ')'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js:6:70)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:47:11 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15572,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 89370624,
+      heapTotal: 61571072,
+      heapUsed: 41990504,
+      external: 20816362,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 10911.39 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 70,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 15572,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T08:17:11.726Z'
+}
+{
+  error: C:\Users\Anuja\Music\JAVA\testing_project\server\utils\openaiClient.js:44
+      cleanedText = cleanedText.replace(/```)/gi, '');
+                                        ^^^^^^^^
+  
+  SyntaxError: Invalid regular expression: /```)/gi: Unmatched ')'
+      at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+      at Module._compile (node:internal/modules/cjs/loader:1537:20)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:138:16)
+      at Object.<anonymous> (C:\Users\Anuja\Music\JAVA\testing_project\server\controllers\chatController.js:6:70),
+  level: 'error',
+  message: "uncaughtException: Invalid regular expression: /```)/gi: Unmatched ')'\n" +
+    'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\utils\\openaiClient.js:44\n' +
+    "    cleanedText = cleanedText.replace(/```)/gi, '');\n" +
+    '                                      ^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Invalid regular expression: /```)/gi: Unmatched ')'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js:6:70)',
+  stack: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\utils\\openaiClient.js:44\n' +
+    "    cleanedText = cleanedText.replace(/```)/gi, '');\n" +
+    '                                      ^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Invalid regular expression: /```)/gi: Unmatched ')'\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1515:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1537:20)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:138:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js:6:70)',
+  exception: true,
+  date: 'Thu Aug 28 2025 13:49:18 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 18840,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 88604672,
+      heapTotal: 61571072,
+      heapUsed: 41476136,
+      external: 20696024,
+      arrayBuffers: 18262287
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 11038.296 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1515,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1537,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 138,
+      method: null,
+      native: false
+    },
+    {
+      column: 70,
+      file: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\controllers\\chatController.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 18840,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T08:19:18.629Z'
+}
+{
+  error: Error [ERR_REQUIRE_ASYNC_MODULE]: require() cannot be used on an ESM graph with top-level await. Use import() instead. To see where the top-level await comes from, use --experimental-print-required-tla.
+      at ModuleJobSync.runSync (node:internal/modules/esm/module_job:392:13)
+      at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)
+      at loadESMFromCJS (node:internal/modules/cjs/loader:1414:24)
+      at Module._compile (node:internal/modules/cjs/loader:1547:5)
+      at Object..js (node:internal/modules/cjs/loader:1708:10)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12) {
+    code: 'ERR_REQUIRE_ASYNC_MODULE'
+  },
+  level: 'error',
+  message: 'uncaughtException: require() cannot be used on an ESM graph with top-level await. Use import() instead. To see where the top-level await comes from, use --experimental-print-required-tla.\n' +
+    'Error [ERR_REQUIRE_ASYNC_MODULE]: require() cannot be used on an ESM graph with top-level await. Use import() instead. To see where the top-level await comes from, use --experimental-print-required-tla.\n' +
+    '    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:392:13)\n' +
+    '    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)\n' +
+    '    at loadESMFromCJS (node:internal/modules/cjs/loader:1414:24)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1547:5)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)',
+  stack: 'Error [ERR_REQUIRE_ASYNC_MODULE]: require() cannot be used on an ESM graph with top-level await. Use import() instead. To see where the top-level await comes from, use --experimental-print-required-tla.\n' +
+    '    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:392:13)\n' +
+    '    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:329:47)\n' +
+    '    at loadESMFromCJS (node:internal/modules/cjs/loader:1414:24)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1547:5)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1708:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)',
+  exception: true,
+  date: 'Thu Aug 28 2025 14:03:34 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 19176,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Anuja\\Music\\JAVA\\testing_project\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 92962816,
+      heapTotal: 63926272,
+      heapUsed: 35504768,
+      external: 20894237,
+      arrayBuffers: 18262463
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 11894.234 },
+  trace: [
+    {
+      column: 13,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJobSync.runSync',
+      line: 392,
+      method: 'runSync',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/modules/esm/loader',
+      function: 'ModuleLoader.importSyncForRequire',
+      line: 329,
+      method: 'importSyncForRequire',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'loadESMFromCJS',
+      line: 1414,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1547,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1708,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    }
+  ],
+  service: 'synaptron-backend',
+  pid: 19176,
+  hostname: 'LAPTOP-MUCAVG9A',
+  timestamp: '2025-08-28T08:33:34.570Z'
+}

@@ -1,0 +1,7 @@
+{"level":"info","message":"🚀 Synaptron Backend Started","service":"synaptron-backend","timestamp":"2024-01-15T10:30:00.000Z","port":5000,"environment":"development"}
+{"level":"info","message":"🍃 MongoDB Connected Successfully","service":"synaptron-backend","timestamp":"2024-01-15T10:30:01.000Z","host":"localhost","database":"synaptron"}
+{"level":"info","message":"🤖 OpenAI API Key Validated","service":"synaptron-backend","timestamp":"2024-01-15T10:30:02.000Z"}
+{"level":"info","message":"HTTP Request","service":"synaptron-backend","timestamp":"2024-01-15T10:30:15.000Z","method":"POST","url":"/api/auth/register","statusCode":201,"duration":"245ms","userAgent":"Mozilla/5.0","ip":"127.0.0.1","userId":"anonymous"}
+{"level":"info","message":"Auth register","service":"synaptron-auth","timestamp":"2024-01-15T10:30:15.000Z","action":"register","userId":"65a5f1234567890abcdef123","success":true,"email":"user@example.com"}
+{"level":"info","message":"HTTP Request","service":"synaptron-backend","timestamp":"2024-01-15T10:31:00.000Z","method":"POST","url":"/api/chat/send","statusCode":200,"duration":"1250ms","userAgent":"Mozilla/5.0","ip":"127.0.0.1","userId":"65a5f1234567890abcdef123"}
+{"level":"info","message":"Chat send","service":"synaptron-chat","timestamp":"2024-01-15T10:31:00.000Z","action":"send","userId":"65a5f1234567890abcdef123","sessionId":"session_65a5f1234567890abcdef123_1705315860000","tokensUsed":156}

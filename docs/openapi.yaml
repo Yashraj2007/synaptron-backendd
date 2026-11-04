@@ -1,0 +1,14 @@
+openapi: 3.0.3
+info:
+  title: Synaptron AI Backend API
+  description: |
+    Backend API for Synaptron AI Agent Application
+    
+    This API provides endpoints for:
+    - User authentication and management
+    - AI-powered chat functionality
+    - Code analysis and insights
+    - Real-time communication via Socket.IO
+    
+    ## Authentication
+    Most endpoints require JWT authentication. Include the token in the Authorization header:

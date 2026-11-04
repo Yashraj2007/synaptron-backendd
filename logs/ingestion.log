@@ -1,0 +1,3493 @@
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1755781639502_uzz61ynql',
+  status: 'started',
+  timestamp: '2025-08-21T13:07:19.512Z',
+  domain: 'Cloud Architecture',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '2v0ctzo',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1755781776685_o0vmpqb5a',
+  status: 'started',
+  timestamp: '2025-08-21T13:09:36.691Z',
+  domain: 'Data Science',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'pha4j',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1755781776685_o0vmpqb5a',
+  status: 'completed',
+  timestamp: '2025-08-21T13:09:48.968Z',
+  domain: 'Data Science',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 12275,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1755784479616_9nom3fy6c',
+  status: 'started',
+  timestamp: '2025-08-21T13:54:39.622Z',
+  domain: 'Data Science',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '8pqcg',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1755784479616_9nom3fy6c',
+  status: 'completed',
+  timestamp: '2025-08-21T13:55:01.856Z',
+  domain: 'Data Science',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 22232,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1755916551562_svebqq9xa',
+  status: 'started',
+  timestamp: '2025-08-23T02:35:51.724Z',
+  domain: 'Quantum Computing',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'xt390f',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1755916551562_svebqq9xa',
+  status: 'completed',
+  timestamp: '2025-08-23T02:36:16.269Z',
+  domain: 'Quantum Computing',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 24542,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756081412720_6qfy5hwnr',
+  status: 'started',
+  timestamp: '2025-08-25T00:23:32.741Z',
+  domain: 'Machine Learning',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'od4a5td',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756081412720_6qfy5hwnr',
+  status: 'completed',
+  timestamp: '2025-08-25T00:23:46.707Z',
+  domain: 'Machine Learning',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 13960,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756081551011_in47qepj6',
+  status: 'started',
+  timestamp: '2025-08-25T00:25:51.034Z',
+  domain: 'Machine Learning',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'fvdujs',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756081551011_in47qepj6',
+  status: 'completed',
+  timestamp: '2025-08-25T00:27:09.931Z',
+  domain: 'Machine Learning',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 78893,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756082539669_6yw9lnqfm',
+  status: 'started',
+  timestamp: '2025-08-25T00:42:19.743Z',
+  domain: 'Blockchain Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '8lw7v4',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756082539669_6yw9lnqfm',
+  status: 'completed',
+  timestamp: '2025-08-25T00:43:29.746Z',
+  domain: 'Blockchain Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 69998,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756082873653_3d9ma6g5i',
+  status: 'started',
+  timestamp: '2025-08-25T00:47:53.663Z',
+  domain: 'Blockchain Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'f3swo',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756082873653_3d9ma6g5i',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T00:47:53.668Z',
+  domain: 'Blockchain Development',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756082873653_3d9ma6g5i',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T00:48:02.075Z',
+  domain: 'Blockchain Development',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756082873653_3d9ma6g5i',
+  status: 'error',
+  timestamp: '2025-08-25T00:48:08.345Z',
+  domain: 'Blockchain Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: 'DomainIngestion validation failed: sessionId: Path `sessionId` is required.',
+  duration: 14675,
+  level: 'error',
+  message: 'Ingestion error'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756083361684_rwobdlo4j',
+  status: 'started',
+  timestamp: '2025-08-25T00:56:01.709Z',
+  domain: 'JAVA',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'ly8rxn',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756083361684_rwobdlo4j',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T00:56:01.720Z',
+  domain: 'JAVA',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756083361684_rwobdlo4j',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T00:56:19.035Z',
+  domain: 'JAVA',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756083361684_rwobdlo4j',
+  status: 'error',
+  timestamp: '2025-08-25T00:56:25.253Z',
+  domain: 'JAVA',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: 'DomainIngestion validation failed: sessionId: Path `sessionId` is required.',
+  duration: 23539,
+  level: 'error',
+  message: 'Ingestion error'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756084092075_m3c2aamuv',
+  status: 'started',
+  timestamp: '2025-08-25T01:08:12.082Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'ml5gwg',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756084092075_m3c2aamuv',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T01:08:12.085Z',
+  domain: 'java',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756084092075_m3c2aamuv',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T01:09:10.023Z',
+  domain: 'java',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756084092075_m3c2aamuv',
+  status: 'error',
+  timestamp: '2025-08-25T01:09:16.481Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: `DomainIngestion validation failed: analysisResults.subdomains.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Fundamentals',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'variables',\\n" +\n` +
+    `  "      'data types',\\n" +\n` +
+    `  "      'operators',\\n" +\n` +
+    `  "      'control structures',\\n" +\n` +
+    `  "      'functions'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Object-Oriented Programming (OOP)',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'classes',\\n" +\n` +
+    `  "      'objects',\\n" +\n` +
+    `  "      'inheritance',\\n" +\n` +
+    `  "      'polymorphism',\\n" +\n` +
+    `  "      'encapsulation'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Collections Framework',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'lists', 'sets', 'maps', 'queues', 'stacks' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Stream API',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'stream creation',\\n" +\n` +
+    `  "      'intermediate operations',\\n" +\n` +
+    `  "      'terminal operations'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Multithreading',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'threads', 'synchronization', 'concurrency', 'deadlocks' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Web Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'servlets', 'JSP', 'Spring Framework', 'Hibernate' ]\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.subdomains.0" because of "CastError", analysisResults.primaryConcepts.0: Cast to [string] failed for value "[\\n' +\n` +
+    `  "  { name: 'Variables and Data Types' },\\n" +\n` +
+    `  "  { name: 'Control Structures' },\\n" +\n` +
+    `  "  { name: 'Functions and Methods' },\\n" +\n` +
+    `  "  { name: 'Object-Oriented Programming (OOP) Concepts' },\\n" +\n` +
+    `  "  { name: 'Exception Handling' }\\n" +\n` +
+    `  ']" (type string) at path "analysisResults.primaryConcepts.0" because of "CastError", analysisResults.prerequisites.0: Cast to [string] failed for value "[\\n' +\n` +
+    `  "  { name: 'Basic programming concepts' },\\n" +\n` +
+    `  "  { name: 'Understanding of data structures and algorithms' },\\n" +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Familiarity with object-oriented programming (OOP) concepts'\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.prerequisites.0" because of "CastError"`,
+  duration: 64392,
+  level: 'error',
+  message: 'Ingestion error'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756084794609_f6s8qar98',
+  status: 'started',
+  timestamp: '2025-08-25T01:19:54.632Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '6c2on',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756084794609_f6s8qar98',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T01:19:54.643Z',
+  domain: 'java',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756084794609_f6s8qar98',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T01:20:47.093Z',
+  domain: 'java',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756084794609_f6s8qar98',
+  status: 'error',
+  timestamp: '2025-08-25T01:20:53.393Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: `DomainIngestion validation failed: analysisResults.subdomains.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Fundamentals',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'variables',\\n" +\n` +
+    `  "      'data types',\\n" +\n` +
+    `  "      'operators',\\n" +\n` +
+    `  "      'control structures',\\n" +\n` +
+    `  "      'functions'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Object-Oriented Programming (OOP) Concepts',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'classes',\\n" +\n` +
+    `  "      'objects',\\n" +\n` +
+    `  "      'inheritance',\\n" +\n` +
+    `  "      'polymorphism',\\n" +\n` +
+    `  "      'encapsulation'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Collections Framework',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'lists', 'sets', 'maps', 'queues', 'stacks' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Stream API',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'lambda expressions', 'method references', 'stream operations' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Multithreading',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'threads', 'synchronization', 'locks', 'concurrency' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Java Web Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'servlets', 'JSP', 'Spring Framework', 'Hibernate' ]\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.subdomains.0" because of "CastError", analysisResults.prerequisites.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Basic programming concepts',\\n" +\n` +
+    `  "    description: 'Understanding of variables, data types, control structures, functions, and object-oriented programming concepts'\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Data structures and algorithms',\\n" +\n` +
+    `  "    description: 'Familiarity with common data structures such as arrays, linked lists, stacks, and queues, as well as basic algorithms like sorting and searching'\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.prerequisites.0" because of "CastError"`,
+  duration: 58747,
+  level: 'error',
+  message: 'Ingestion error'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756087653815_4ao189814',
+  status: 'started',
+  timestamp: '2025-08-25T02:07:33.824Z',
+  domain: 'Web Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'p3735w',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756087653815_4ao189814',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T02:07:33.828Z',
+  domain: 'Web Development',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756087653815_4ao189814',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T02:08:45.116Z',
+  domain: 'Web Development',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756087653815_4ao189814',
+  status: 'error',
+  timestamp: '2025-08-25T02:08:51.476Z',
+  domain: 'Web Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: `DomainIngestion validation failed: analysisResults.subdomains.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Front-end Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'HTML', 'CSS', 'JavaScript', 'React', 'Angular', 'Vue.js' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Back-end Development',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'Server-side programming languages (e.g., Python, Ruby, PHP)',\\n" +\n` +
+    `  "      'Database management systems (e.g., MySQL, MongoDB)',\\n" +\n` +
+    `  "      'API design'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Full-stack Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'Combining front-end and back-end development skills' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Web Security',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'Secure coding practices',\\n" +\n` +
+    `  "      'Vulnerability assessment',\\n" +\n` +
+    `  "      'Penetration testing'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Web Performance Optimization',\\n" +\n` +
+    "  '    areasOfExpertise: [\\n' +\n" +
+    `  "      'Page speed optimization',\\n" +\n` +
+    `  "      'Caching',\\n" +\n` +
+    `  "      'Content delivery networks (CDNs)'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.subdomains.0" because of "CastError"`,
+  duration: 77644,
+  level: 'error',
+  message: 'Ingestion error'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756088432937_l9t3mve4u',
+  status: 'started',
+  timestamp: '2025-08-25T02:20:32.947Z',
+  domain: 'Frontend Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'l5wsrf',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756088432937_l9t3mve4u',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T02:20:32.952Z',
+  domain: 'Frontend Development',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756088432937_l9t3mve4u',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T02:21:27.310Z',
+  domain: 'Frontend Development',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756088432937_l9t3mve4u',
+  status: 'completed',
+  timestamp: '2025-08-25T02:21:27.799Z',
+  domain: 'Frontend Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 54848,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756088655367_fuuwqjm6q',
+  status: 'started',
+  timestamp: '2025-08-25T02:24:15.370Z',
+  domain: 'java programming langugae',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'riyjrg',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756088655367_fuuwqjm6q',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T02:24:15.373Z',
+  domain: 'java programming langugae',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756088655367_fuuwqjm6q',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T02:25:32.979Z',
+  domain: 'java programming langugae',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756088655367_fuuwqjm6q',
+  status: 'completed',
+  timestamp: '2025-08-25T02:25:33.026Z',
+  domain: 'java programming langugae',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 77651,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756088924846_oi3m7k983',
+  status: 'started',
+  timestamp: '2025-08-25T02:28:44.850Z',
+  domain: 'DevOps',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '2d8giq',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756088924846_oi3m7k983',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T02:28:44.853Z',
+  domain: 'DevOps',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756088924846_oi3m7k983',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T02:29:47.858Z',
+  domain: 'DevOps',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756088924846_oi3m7k983',
+  status: 'completed',
+  timestamp: '2025-08-25T02:29:47.881Z',
+  domain: 'DevOps',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 63028,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756089119473_45xoxlp11',
+  status: 'started',
+  timestamp: '2025-08-25T02:31:59.475Z',
+  domain: 'Data Science',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'lq8kh',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756089119473_45xoxlp11',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T02:31:59.478Z',
+  domain: 'Data Science',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756089119473_45xoxlp11',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T02:32:50.232Z',
+  domain: 'Data Science',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756089119473_45xoxlp11',
+  status: 'completed',
+  timestamp: '2025-08-25T02:32:50.259Z',
+  domain: 'Data Science',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 50780,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756089598438_2pmljw9k2',
+  status: 'started',
+  timestamp: '2025-08-25T02:39:58.441Z',
+  domain: 'chemistry',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'gmsppp',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756089598438_2pmljw9k2',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T02:39:58.443Z',
+  domain: 'chemistry',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756089598438_2pmljw9k2',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T02:40:51.325Z',
+  domain: 'chemistry',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756089598438_2pmljw9k2',
+  status: 'completed',
+  timestamp: '2025-08-25T02:40:51.454Z',
+  domain: 'chemistry',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 53011,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756089742915_9bccapmpp',
+  status: 'started',
+  timestamp: '2025-08-25T02:42:22.917Z',
+  domain: 'arijit singh',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'hxs7lo',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756089742915_9bccapmpp',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T02:42:22.922Z',
+  domain: 'arijit singh',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756089742915_9bccapmpp',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T02:43:23.735Z',
+  domain: 'arijit singh',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756089742915_9bccapmpp',
+  status: 'completed',
+  timestamp: '2025-08-25T02:43:23.756Z',
+  domain: 'arijit singh',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 60836,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756091914904_37svf1kbc',
+  status: 'started',
+  timestamp: '2025-08-25T03:18:34.913Z',
+  domain: 'python',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '8fsr',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756091914904_37svf1kbc',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T03:18:34.916Z',
+  domain: 'python',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756091914904_37svf1kbc',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T03:19:32.492Z',
+  domain: 'python',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756091914904_37svf1kbc',
+  status: 'completed',
+  timestamp: '2025-08-25T03:19:32.838Z',
+  domain: 'python',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 57920,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756092065137_qfetgp9d4',
+  status: 'started',
+  timestamp: '2025-08-25T03:21:05.138Z',
+  domain: 'pav bhaji',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '6dqngt',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756092065137_qfetgp9d4',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T03:21:05.140Z',
+  domain: 'pav bhaji',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756092065137_qfetgp9d4',
+  status: 'completed',
+  timestamp: '2025-08-25T03:21:10.963Z',
+  domain: 'pav bhaji',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 5821,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756094564422_605ax4rok',
+  status: 'started',
+  timestamp: '2025-08-25T04:02:44.430Z',
+  domain: 'html',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'fiprjf',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756094564422_605ax4rok',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T04:02:44.432Z',
+  domain: 'html',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756094564422_605ax4rok',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T04:03:15.547Z',
+  domain: 'html',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756094564422_605ax4rok',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T04:03:15.547Z',
+  domain: 'html',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756094564422_605ax4rok',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T04:03:56.420Z',
+  domain: 'html',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756094564422_605ax4rok',
+  status: 'completed',
+  timestamp: '2025-08-25T04:03:57.027Z',
+  domain: 'html',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 72595,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756095210313_mk0gllxud',
+  status: 'started',
+  timestamp: '2025-08-25T04:13:30.318Z',
+  domain: 'html',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'vortm',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756095210313_mk0gllxud',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T04:13:30.321Z',
+  domain: 'html',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756095210313_mk0gllxud',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T04:13:55.258Z',
+  domain: 'html',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756095210313_mk0gllxud',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T04:13:55.261Z',
+  domain: 'html',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756095210313_mk0gllxud',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T04:14:44.399Z',
+  domain: 'html',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756095210313_mk0gllxud',
+  status: 'completed',
+  timestamp: '2025-08-25T04:14:44.534Z',
+  domain: 'html',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 74214,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756095596913_pwcw5q2t0',
+  status: 'started',
+  timestamp: '2025-08-25T04:19:56.917Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'zavnz',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756095596913_pwcw5q2t0',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T04:19:56.920Z',
+  domain: 'java',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756095596913_pwcw5q2t0',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T04:20:34.690Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756095596913_pwcw5q2t0',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T04:20:34.692Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756095596913_pwcw5q2t0',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T04:21:34.433Z',
+  domain: 'java',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756095596913_pwcw5q2t0',
+  status: 'completed',
+  timestamp: '2025-08-25T04:21:34.546Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 97626,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756096402712_30yv0keb0',
+  status: 'started',
+  timestamp: '2025-08-25T04:33:22.794Z',
+  domain: 'Blockchain Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '7p9tlh',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756096402712_30yv0keb0',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T04:33:22.865Z',
+  domain: 'Blockchain Development',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756096402712_30yv0keb0',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T04:33:44.434Z',
+  domain: 'Blockchain Development',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756096402712_30yv0keb0',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T04:33:44.435Z',
+  domain: 'Blockchain Development',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756096402712_30yv0keb0',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T04:34:20.380Z',
+  domain: 'Blockchain Development',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756096402712_30yv0keb0',
+  status: 'completed',
+  timestamp: '2025-08-25T04:34:20.452Z',
+  domain: 'Blockchain Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 57595,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756096787332_ov7f1ncb3',
+  status: 'started',
+  timestamp: '2025-08-25T04:39:47.334Z',
+  domain: 'Data Science',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '0pb6jj',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756096787332_ov7f1ncb3',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T04:39:47.335Z',
+  domain: 'Data Science',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756096787332_ov7f1ncb3',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T04:40:13.386Z',
+  domain: 'Data Science',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756096787332_ov7f1ncb3',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T04:40:13.387Z',
+  domain: 'Data Science',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756096787332_ov7f1ncb3',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T04:40:21.606Z',
+  domain: 'Data Science',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756096787332_ov7f1ncb3',
+  status: 'completed',
+  timestamp: '2025-08-25T04:40:22.116Z',
+  domain: 'Data Science',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 34779,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756097092884_jcue8521g',
+  status: 'started',
+  timestamp: '2025-08-25T04:44:52.885Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'z9fja',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756097092884_jcue8521g',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T04:44:52.886Z',
+  domain: 'java',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756097092884_jcue8521g',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T04:45:06.994Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756097092884_jcue8521g',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T04:45:06.994Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756097092884_jcue8521g',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T04:45:14.279Z',
+  domain: 'java',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756097092884_jcue8521g',
+  status: 'completed',
+  timestamp: '2025-08-25T04:45:14.375Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 21489,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756097343116_ilvpv53bk',
+  status: 'started',
+  timestamp: '2025-08-25T04:49:03.117Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'ro1njr',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756097343116_ilvpv53bk',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T04:49:03.117Z',
+  domain: 'java',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756097343116_ilvpv53bk',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T04:49:15.788Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756097343116_ilvpv53bk',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T04:49:15.789Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756097343116_ilvpv53bk',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T04:49:23.907Z',
+  domain: 'java',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756097343116_ilvpv53bk',
+  status: 'completed',
+  timestamp: '2025-08-25T04:49:24.160Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 21042,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756097705785_uq1qnxd1j',
+  status: 'started',
+  timestamp: '2025-08-25T04:55:05.787Z',
+  domain: 'javascri[pt',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'e6vxi2',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756097705785_uq1qnxd1j',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T04:55:05.788Z',
+  domain: 'javascri[pt',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756097705785_uq1qnxd1j',
+  status: 'completed',
+  timestamp: '2025-08-25T04:55:09.665Z',
+  domain: 'javascri[pt',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 3878,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756097737081_s3nkrnoq0',
+  status: 'started',
+  timestamp: '2025-08-25T04:55:37.082Z',
+  domain: 'python',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '96t1v',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756097737081_s3nkrnoq0',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T04:55:37.083Z',
+  domain: 'python',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756097737081_s3nkrnoq0',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T04:55:53.514Z',
+  domain: 'python',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756097737081_s3nkrnoq0',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T04:55:53.515Z',
+  domain: 'python',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756097737081_s3nkrnoq0',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T04:56:00.750Z',
+  domain: 'python',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756097737081_s3nkrnoq0',
+  status: 'completed',
+  timestamp: '2025-08-25T04:56:00.828Z',
+  domain: 'python',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 23745,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756098333231_19n1qqojd',
+  status: 'started',
+  timestamp: '2025-08-25T05:05:33.246Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 's6w9io',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756098333231_19n1qqojd',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T05:05:33.254Z',
+  domain: 'java',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756098333231_19n1qqojd',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T05:05:48.573Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756098333231_19n1qqojd',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T05:05:48.574Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756098333231_19n1qqojd',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T05:05:55.642Z',
+  domain: 'java',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756098333231_19n1qqojd',
+  status: 'completed',
+  timestamp: '2025-08-25T05:05:55.870Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 22620,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756098602313_0uhpgan78',
+  status: 'started',
+  timestamp: '2025-08-25T05:10:02.318Z',
+  domain: 'Blockchain Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'klpd51',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756098602313_0uhpgan78',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T05:10:02.322Z',
+  domain: 'Blockchain Development',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756098602313_0uhpgan78',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T05:10:24.232Z',
+  domain: 'Blockchain Development',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756098602313_0uhpgan78',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T05:10:24.234Z',
+  domain: 'Blockchain Development',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756098602313_0uhpgan78',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T05:10:32.922Z',
+  domain: 'Blockchain Development',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756098602313_0uhpgan78',
+  status: 'completed',
+  timestamp: '2025-08-25T05:10:33.003Z',
+  domain: 'Blockchain Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 30681,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756099033482_3o4osknvb',
+  status: 'started',
+  timestamp: '2025-08-25T05:17:13.487Z',
+  domain: 'Blockchain Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '2dhm6t',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099033482_3o4osknvb',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T05:17:13.491Z',
+  domain: 'Blockchain Development',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099033482_3o4osknvb',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T05:17:29.737Z',
+  domain: 'Blockchain Development',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099033482_3o4osknvb',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T05:17:29.738Z',
+  domain: 'Blockchain Development',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099033482_3o4osknvb',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T05:17:38.214Z',
+  domain: 'Blockchain Development',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756099033482_3o4osknvb',
+  status: 'completed',
+  timestamp: '2025-08-25T05:17:38.304Z',
+  domain: 'Blockchain Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 24814,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756099291149_f4raaucqa',
+  status: 'started',
+  timestamp: '2025-08-25T05:21:31.174Z',
+  domain: 'Quantum Computing',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'mkwogb',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099291149_f4raaucqa',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T05:21:31.186Z',
+  domain: 'Quantum Computing',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756099291149_f4raaucqa',
+  status: 'completed',
+  timestamp: '2025-08-25T05:21:35.612Z',
+  domain: 'Quantum Computing',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 4430,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756099313659_llzb0s8ob',
+  status: 'started',
+  timestamp: '2025-08-25T05:21:53.662Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'cv3yw7',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099313659_llzb0s8ob',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T05:21:53.665Z',
+  domain: 'java',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099313659_llzb0s8ob',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T05:22:07.837Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099313659_llzb0s8ob',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T05:22:07.838Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099313659_llzb0s8ob',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T05:22:15.064Z',
+  domain: 'java',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756099313659_llzb0s8ob',
+  status: 'completed',
+  timestamp: '2025-08-25T05:22:15.154Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 21488,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756099481895_cwayqf50d',
+  status: 'started',
+  timestamp: '2025-08-25T05:24:41.908Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'ehlgb8',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099481895_cwayqf50d',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T05:24:41.914Z',
+  domain: 'java',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099481895_cwayqf50d',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T05:24:55.164Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099481895_cwayqf50d',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T05:24:55.164Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099481895_cwayqf50d',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T05:25:03.255Z',
+  domain: 'java',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756099481895_cwayqf50d',
+  status: 'completed',
+  timestamp: '2025-08-25T05:25:03.460Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 21548,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756099841322_moo8mjxmw',
+  status: 'started',
+  timestamp: '2025-08-25T05:30:41.326Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'n0zhx3',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099841322_moo8mjxmw',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T05:30:41.330Z',
+  domain: 'java',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099841322_moo8mjxmw',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T05:30:56.750Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099841322_moo8mjxmw',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T05:30:56.751Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099841322_moo8mjxmw',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T05:31:04.214Z',
+  domain: 'java',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756099841322_moo8mjxmw',
+  status: 'completed',
+  timestamp: '2025-08-25T05:31:04.314Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 22984,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756099869316_zz42xjazt',
+  status: 'started',
+  timestamp: '2025-08-25T05:31:09.320Z',
+  domain: 'Cloud Architecture',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'oprnri',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099869316_zz42xjazt',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T05:31:09.323Z',
+  domain: 'Cloud Architecture',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099869316_zz42xjazt',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T05:31:12.638Z',
+  domain: 'Cloud Architecture',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099869316_zz42xjazt',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T05:31:12.639Z',
+  domain: 'Cloud Architecture',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756099869316_zz42xjazt',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T05:31:19.881Z',
+  domain: 'Cloud Architecture',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756099869316_zz42xjazt',
+  status: 'completed',
+  timestamp: '2025-08-25T05:31:19.946Z',
+  domain: 'Cloud Architecture',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 10623,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756100018430_i1mwmxhrv',
+  status: 'started',
+  timestamp: '2025-08-25T05:33:38.433Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'h5hf2',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756100018430_i1mwmxhrv',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T05:33:38.436Z',
+  domain: 'java',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756100018430_i1mwmxhrv',
+  status: 'Knowledge Collection Complete',
+  timestamp: '2025-08-25T05:33:51.483Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'crawling',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756100018430_i1mwmxhrv',
+  status: 'Processing Crawled Data...',
+  timestamp: '2025-08-25T05:33:51.485Z',
+  domain: 'java',
+  progress: 50,
+  itemsProcessed: undefined,
+  step: 'processing',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756100018430_i1mwmxhrv',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T05:33:59.253Z',
+  domain: 'java',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 'optimization',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756100018430_i1mwmxhrv',
+  status: 'completed',
+  timestamp: '2025-08-25T05:33:59.460Z',
+  domain: 'java',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 21023,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756100508079_8ynvo6lm8',
+  status: 'started',
+  timestamp: '2025-08-25T05:41:48.093Z',
+  domain: 'pav bahji',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '59hair',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756100508079_8ynvo6lm8',
+  status: 'Analyzing Domain with AI...',
+  timestamp: '2025-08-25T05:41:48.099Z',
+  domain: 'pav bahji',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 'analysis',
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756100508079_8ynvo6lm8',
+  status: 'completed',
+  timestamp: '2025-08-25T05:41:52.763Z',
+  domain: 'pav bahji',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 4664,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756100546002_57zq1fg0v',
+  status: 'started',
+  timestamp: '2025-08-25T05:42:26.031Z',
+  domain: 'pav bhaji',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '9shx6r',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756100546002_57zq1fg0v',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T05:42:26.041Z',
+  domain: 'pav bhaji',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756100546002_57zq1fg0v',
+  status: 'completed',
+  timestamp: '2025-08-25T05:42:31.257Z',
+  domain: 'pav bhaji',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 5218,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756100568704_mpzi15n4n',
+  status: 'started',
+  timestamp: '2025-08-25T05:42:48.716Z',
+  domain: 'pav bhaji',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'iw602a',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756100568704_mpzi15n4n',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T05:42:48.723Z',
+  domain: 'pav bhaji',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756100568704_mpzi15n4n',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T05:43:22.534Z',
+  domain: 'pav bhaji',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756100568704_mpzi15n4n',
+  status: 'completed',
+  timestamp: '2025-08-25T05:43:22.676Z',
+  domain: 'pav bhaji',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 33955,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756101046066_slsb9271n',
+  status: 'started',
+  timestamp: '2025-08-25T05:50:46.103Z',
+  domain: 'pav bhaji',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'ozb00y',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756101046066_slsb9271n',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T05:50:46.113Z',
+  domain: 'pav bhaji',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756101046066_slsb9271n',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T05:51:12.256Z',
+  domain: 'pav bhaji',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756101046066_slsb9271n',
+  status: 'completed',
+  timestamp: '2025-08-25T05:51:12.423Z',
+  domain: 'pav bhaji',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 26314,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756101142614_gkq7x0dww',
+  status: 'started',
+  timestamp: '2025-08-25T05:52:22.616Z',
+  domain: 'Blockchain Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'yo3po4',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756101142614_gkq7x0dww',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T05:52:22.618Z',
+  domain: 'Blockchain Development',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756101142614_gkq7x0dww',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T05:52:44.812Z',
+  domain: 'Blockchain Development',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756101142614_gkq7x0dww',
+  status: 'completed',
+  timestamp: '2025-08-25T05:52:44.892Z',
+  domain: 'Blockchain Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 22273,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756101357804_i7qwq6h2v',
+  status: 'started',
+  timestamp: '2025-08-25T05:55:57.834Z',
+  domain: 'Quantum Computing',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'yg6d6i',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756101357804_i7qwq6h2v',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T05:55:57.844Z',
+  domain: 'Quantum Computing',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756101357804_i7qwq6h2v',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T05:56:33.377Z',
+  domain: 'Quantum Computing',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756101357804_i7qwq6h2v',
+  status: 'completed',
+  timestamp: '2025-08-25T05:56:33.554Z',
+  domain: 'Quantum Computing',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 35715,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756101613951_o1ihdr36v',
+  status: 'started',
+  timestamp: '2025-08-25T06:00:13.973Z',
+  domain: 'pav bhaji',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'ikyw11',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756101613951_o1ihdr36v',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T06:00:13.985Z',
+  domain: 'pav bhaji',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756101613951_o1ihdr36v',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T06:00:35.708Z',
+  domain: 'pav bhaji',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756101613951_o1ihdr36v',
+  status: 'completed',
+  timestamp: '2025-08-25T06:00:35.890Z',
+  domain: 'pav bhaji',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 21909,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756101697441_xkjru638l',
+  status: 'started',
+  timestamp: '2025-08-25T06:01:37.445Z',
+  domain: 'vada pav',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '965x3j',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756101697441_xkjru638l',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T06:01:37.449Z',
+  domain: 'vada pav',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756101697441_xkjru638l',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T06:01:57.069Z',
+  domain: 'vada pav',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756101697441_xkjru638l',
+  status: 'completed',
+  timestamp: '2025-08-25T06:01:57.129Z',
+  domain: 'vada pav',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 19681,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756130146324_bexndqmll',
+  status: 'started',
+  timestamp: '2025-08-25T13:55:46.467Z',
+  domain: 'Advanced React.js development with TypeScript, focusing on performance optimization and modern patterns...',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'turzxb',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756130146324_bexndqmll',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-25T13:55:46.530Z',
+  domain: 'Advanced React.js development with TypeScript, focusing on performance optimization and modern patterns...',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756130146324_bexndqmll',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-25T13:56:24.448Z',
+  domain: 'Advanced React.js development with TypeScript, focusing on performance optimization and modern patterns...',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756130146324_bexndqmll',
+  status: 'completed',
+  timestamp: '2025-08-25T13:56:26.463Z',
+  domain: 'Advanced React.js development with TypeScript, focusing on performance optimization and modern patterns...',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 39945,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756301168852_vml9jzbde',
+  status: 'started',
+  timestamp: '2025-08-27T13:26:09.201Z',
+  domain: 'khbuikninibklnknknnknnnnknknkkn',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'd75a33',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756301168852_vml9jzbde',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-27T13:26:09.262Z',
+  domain: 'khbuikninibklnknknnknnnnknknkkn',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756301168852_vml9jzbde',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-27T13:26:50.254Z',
+  domain: 'khbuikninibklnknknnknnnnknknkkn',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756301168852_vml9jzbde',
+  status: 'completed',
+  timestamp: '2025-08-27T13:26:53.132Z',
+  domain: 'khbuikninibklnknknnknnnnknknkkn',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 43927,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756301441192_5mrvyiwmp',
+  status: 'started',
+  timestamp: '2025-08-27T13:30:41.194Z',
+  domain: 'Mobile Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'wkt8b6',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756301441192_5mrvyiwmp',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-27T13:30:41.196Z',
+  domain: 'Mobile Development',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756301441192_5mrvyiwmp',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-27T13:31:37.097Z',
+  domain: 'Mobile Development',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756301441192_5mrvyiwmp',
+  status: 'error',
+  timestamp: '2025-08-27T13:31:43.385Z',
+  domain: 'Mobile Development',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: `DomainIngestion validation failed: analysisResults.subdomains.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'iOS Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'Swift', 'Objective-C', 'Xcode', 'iOS SDK' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Android Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'Java', 'Kotlin', 'Android Studio', 'Android SDK' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Cross-Platform Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'React Native', 'Flutter', 'Xamarin' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Mobile Web Development',\\n" +\n` +
+    `  "    areasOfExpertise: [ 'HTML5', 'CSS3', 'JavaScript', 'Responsive Design' ]\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.subdomains.0" because of "CastError"`,
+  duration: 62174,
+  level: 'error',
+  message: 'Ingestion error'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756302136298_daxshx2dm',
+  status: 'started',
+  timestamp: '2025-08-27T13:42:16.399Z',
+  domain: 'Machine Learning',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'nqocta',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756302136298_daxshx2dm',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-27T13:42:16.401Z',
+  domain: 'Machine Learning',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756302136298_daxshx2dm',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-27T13:43:19.745Z',
+  domain: 'Machine Learning',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'error',
+  sessionId: '1756302136298_daxshx2dm',
+  status: 'error',
+  timestamp: '2025-08-27T13:43:25.992Z',
+  domain: 'Machine Learning',
+  progress: undefined,
+  itemsProcessed: undefined,
+  error: `DomainIngestion validation failed: analysisResults.subdomains.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Supervised Learning',\\n" +\n` +
+    `  "    areas_of_expertise: [ 'Regression', 'Classification', 'Support Vector Machines' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Unsupervised Learning',\\n" +\n` +
+    `  "    areas_of_expertise: [ 'Clustering', 'Dimensionality Reduction', 'Density Estimation' ]\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Reinforcement Learning',\\n" +\n` +
+    "  '    areas_of_expertise: [\\n' +\n" +
+    `  "      'Markov Decision Processes',\\n" +\n` +
+    `  "      'Q-Learning',\\n" +\n` +
+    `  "      'Policy Gradient Methods'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Deep Learning',\\n" +\n` +
+    "  '    areas_of_expertise: [\\n' +\n" +
+    `  "      'Neural Networks',\\n" +\n` +
+    `  "      'Convolutional Neural Networks',\\n" +\n` +
+    `  "      'Recurrent Neural Networks'\\n" +\n` +
+    "  '    ]\\n' +\n" +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.subdomains.0" because of "CastError", analysisResults.primaryConcepts.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Overfitting',\\n" +\n` +
+    `  "    description: 'When a model is too complex and performs well on training data but poorly on new data'\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Underfitting',\\n" +\n` +
+    `  "    description: 'When a model is too simple and fails to capture the underlying patterns in the data'\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Bias-Variance Tradeoff',\\n" +\n` +
+    `  "    description: 'The balance between model simplicity and complexity'\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Regularization',\\n" +\n` +
+    `  "    description: 'Techniques to prevent overfitting, such as L1 and L2 regularization'\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.primaryConcepts.0" because of "CastError", analysisResults.prerequisites.0: Cast to [string] failed for value "[\\n' +\n` +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Linear Algebra',\\n" +\n` +
+    `  "    description: 'Understanding of vectors, matrices, and operations'\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Calculus',\\n" +\n` +
+    `  "    description: 'Understanding of derivatives and optimization techniques'\\n" +\n` +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Probability and Statistics',\\n" +\n` +
+    '  `    description: "Understanding of probability distributions, Bayes\' theorem, and statistical inference"\\n` +\n' +
+    "  '  },\\n' +\n" +
+    "  '  {\\n' +\n" +
+    `  "    name: 'Programming Skills',\\n" +\n` +
+    `  "    description: 'Proficiency in a programming language, such as Python or R'\\n" +\n` +
+    "  '  }\\n' +\n" +
+    `  ']" (type string) at path "analysisResults.prerequisites.0" because of "CastError"`,
+  duration: 69590,
+  level: 'error',
+  message: 'Ingestion error'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756302425895_6h0wavp0e',
+  status: 'started',
+  timestamp: '2025-08-27T13:47:05.918Z',
+  domain: 'advanced react.js with integrating with typescript',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'l73j',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756302425895_6h0wavp0e',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-27T13:47:05.920Z',
+  domain: 'advanced react.js with integrating with typescript',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756302425895_6h0wavp0e',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-27T13:48:01.346Z',
+  domain: 'advanced react.js with integrating with typescript',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756302425895_6h0wavp0e',
+  status: 'completed',
+  timestamp: '2025-08-27T13:48:02.005Z',
+  domain: 'advanced react.js with integrating with typescript',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 56086,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756307826745_wn4tn5tyk',
+  status: 'started',
+  timestamp: '2025-08-27T15:17:06.759Z',
+  domain: 'Blockchain Development with Solidity and Web3',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'aign1c',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756307826745_wn4tn5tyk',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-27T15:17:06.765Z',
+  domain: 'Blockchain Development with Solidity and Web3',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756307826745_wn4tn5tyk',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-27T15:18:02.458Z',
+  domain: 'Blockchain Development with Solidity and Web3',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756307826745_wn4tn5tyk',
+  status: 'completed',
+  timestamp: '2025-08-27T15:18:02.811Z',
+  domain: 'Blockchain Development with Solidity and Web3',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 56048,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756308314656_ypk06fuj3',
+  status: 'started',
+  timestamp: '2025-08-27T15:25:14.657Z',
+  domain: 'pav bhaji spicy',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: '5avz2',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756308314656_ypk06fuj3',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-27T15:25:14.660Z',
+  domain: 'pav bhaji spicy',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756308314656_ypk06fuj3',
+  status: 'completed',
+  timestamp: '2025-08-27T15:25:20.690Z',
+  domain: 'pav bhaji spicy',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 6030,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'start',
+  sessionId: '1756363313125_ig68fbal1',
+  status: 'started',
+  timestamp: '2025-08-28T06:41:53.283Z',
+  domain: 'Machine Learning with Python and TensorFlow',
+  progress: undefined,
+  itemsProcessed: undefined,
+  requestId: 'd36m88',
+  ip: '::1',
+  level: 'info',
+  message: 'Ingestion start'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756363313125_ig68fbal1',
+  status: 'Analyzing Domain Requirements',
+  timestamp: '2025-08-28T06:41:53.838Z',
+  domain: 'Machine Learning with Python and TensorFlow',
+  progress: 0,
+  itemsProcessed: undefined,
+  step: 0,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'progress',
+  sessionId: '1756363313125_ig68fbal1',
+  status: 'Optimization Complete',
+  timestamp: '2025-08-28T06:43:06.947Z',
+  domain: 'Machine Learning with Python and TensorFlow',
+  progress: 100,
+  itemsProcessed: undefined,
+  step: 4,
+  level: 'info',
+  message: 'Ingestion progress'
+}
+{
+  service: 'synaptron-ingestion',
+  component: 'ingestion',
+  action: 'complete',
+  sessionId: '1756363313125_ig68fbal1',
+  status: 'completed',
+  timestamp: '2025-08-28T06:43:08.009Z',
+  domain: 'Machine Learning with Python and TensorFlow',
+  progress: undefined,
+  itemsProcessed: undefined,
+  duration: 74495,
+  resultsCount: 0,
+  level: 'info',
+  message: 'Ingestion complete'
+}
